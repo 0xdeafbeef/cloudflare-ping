@@ -1,0 +1,16 @@
+[package]
+name = "internship_application_systems"
+version = "0.1.0"
+authors = ["0xd34b33f <0xd34b33f@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0" #arg parsing
+pnet = "0.25.0" #packet crafting and recieving. Responisble for segfaults
+log = "0.4"
+fern = { version = "0.5", features = ["colored"] } # nice logging
+chrono = "0.4.11"
+trust-dns-resolver = "0.19.4"
+crossbeam-channel = "0.4.2" # used with ctrlc, because you cant clone builtin chanel
+ctrlc = "3.1.4" #print stats on sigint
+timeago = "0.2.1" #nice chrono formating
