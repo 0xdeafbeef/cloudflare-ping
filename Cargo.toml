@@ -11,6 +11,6 @@ log = "0.4"
 fern = { version = "0.5", features = ["colored"] } # nice logging
 chrono = "0.4.11"
 trust-dns-resolver = "0.19.4"
-crossbeam-channel = "0.4.2" # used with ctrlc, because you cant clone builtin chanel
+crossbeam-channel = "0.4.4" # used with ctrlc, because you cant clone builtin chanel
 ctrlc = "3.1.4" #print stats on sigint
 timeago = "0.2.1" #nice chrono formating
