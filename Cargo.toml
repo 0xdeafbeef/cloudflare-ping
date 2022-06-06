@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 clap = "2.33.0" #arg parsing
-pnet = "0.25.0" #packet crafting and recieving. Responisble for segfaults
+pnet = "0.27.2" #packet crafting and recieving. Responisble for segfaults
 log = "0.4"
 fern = { version = "0.5", features = ["colored"] } # nice logging
 chrono = "0.4.11"
